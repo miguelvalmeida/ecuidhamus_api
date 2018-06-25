@@ -1,0 +1,11 @@
+extends layout
+
+block content
+      form(action='#{action}', method='POST')
+          h3 Recuperar password
+          .form-group
+          label(for='username') Nova password
+          input.form-control(type='password', name='password', autofocus, required)
+          label.mt-3(for='password') Confirmar password
+          input.form-control(type='password', name='confirm', required)
+          button.btn.btn-primary.mt-4(type='submit') Atualizar Password

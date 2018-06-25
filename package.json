@@ -1,0 +1,29 @@
+{
+  "name": "ecuidhamus-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ecuidhamus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ecuidhamus.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "^8.2.0",
+    "moment": "^2.21.0",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.2",
+    "nodemon": "^1.17.4",
+    "pug": "^2.0.3",
+    "useragent": "^2.3.0"
+  }
+}

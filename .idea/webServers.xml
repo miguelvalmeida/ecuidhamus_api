@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="975babe1-9e31-47b4-85be-50fb03579f28" name="stic" url="http://myhosting.ua.pt">
+        <fileTransfer host="myhosting.ua.pt" port="21" rootFolder="/Hosting/ecuidhamus-ntc.web.ua.pt" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
