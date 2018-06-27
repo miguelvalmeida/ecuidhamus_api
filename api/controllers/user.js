@@ -44,7 +44,7 @@ exports.user_signup = (req, res, next) => {
                 let user = {
                     email: req.body.email,
                     password: hash,
-                    creation_date: moment().format('DD-MM-YYYY, H:mm:ss')
+                    creation_date: moment().format('YYYY-MM-DD H:mm:ss')
                 };
                 const re = /^[a-zA-Z0-9_.+-]+@(?:(?:[a-zA-Z0-9-]+\.)?[a-zA-Z]+\.)?(ua)\.pt$/
                 if (!re.test(user.email)) {
